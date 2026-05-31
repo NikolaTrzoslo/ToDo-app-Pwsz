@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>60</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Segoe UI</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLineEdit {
+    background: #FFFFFF;
+    border: 1px solid #E3D5E8;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #444;
+    font-size: 12pt;
+}
+
+/* Po najechaniu */
+QLineEdit:hover {
+    border: 1px solid #D6C7E5;
+}
+
+/* Po kliknięciu (focus) */
+QLineEdit:focus {
+    border: 2px solid #C7B4E3;
+    background: #FBF8FF;
+}
+</string>
+  </property>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox {
+    spacing: 8px;
+    font-size: 12pt;
+    color: #444;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    border: 2px solid #E8C7CC;
+    background: #FFFFFF;
+}
+
+QCheckBox::indicator:hover {
+    border: 2px solid #F4C9D1;
+}
+
+QCheckBox::indicator:checked {
+    background: #F7DDE2;
+    border: 2px solid #E8B7C1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="usun">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #F7DDE2;
+    color: #444;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: 1px solid #E8C7CC;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #F4C9D1;
+}
+
+QPushButton:pressed {
+    background-color: #E8B7C1;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>delete-851.png</normaloff>delete-851.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Edit">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>40</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #F7DDE2;
+    color: #444;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: 1px solid #E8C7CC;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #F4C9D1;
+}
+
+QPushButton:pressed {
+    background-color: #E8B7C1;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>edit-644.png</normaloff>edit-644.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background: #FFFFFF;
+    border: 1px solid #E8C7CC;
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #444;
+    font-size: 12pt;
+}
+
+QLineEdit:hover {
+    border: 1px solid #F4C9D1;
+}
+
+QLineEdit:focus {
+    border: 2px solid #E8B7C1;
+    background: #FFF7F9;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
